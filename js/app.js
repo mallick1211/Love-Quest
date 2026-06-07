@@ -17,7 +17,7 @@ const TOTAL_LEVELS = 5;
 // Names she can type for Level 1 — edit these in assets/config.json (no need to touch this file).
 // These stay as the fallback defaults if config.json is missing or can't be loaded.
 let ALLOWED_NAMES = ['pichu','chuhuu','pie','chuhu','chuu','piee'];
-let LEVEL1_HINT = '💡 hint: starts with "p" or "ch"...';
+let LEVEL1_HINT = '💡 hint: starts with "p" or "s"...';
 
 function applyConfig(cfg){
   if(!cfg) return;
